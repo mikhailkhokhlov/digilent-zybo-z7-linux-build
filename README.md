@@ -14,6 +14,7 @@ https://git.kernel.org/pub/scm/utils/dtc/dtc.git
 Root FS is a pre-built image that will be downloaded from Xilinx web site.
 
 Required environment (specified in build_zybo_z7_linux.sh)
+
 	Vivado and Xilinx SDK:
 		version and path to vivado
 
