@@ -31,7 +31,7 @@ LOCAL_BINARY=${BUILD_ROOT}/local/bin
 DTS_DIR=${BUILD_ROOT}/dts
 
 VIVADO_ROOT=/tools/Xilinx/Vivado
-VIVADO_VERSION=2018.3
+VIVADO_VERSION=2019.1
 
 XILINX_GIT_ROOT=https://github.com/Xilinx
 
