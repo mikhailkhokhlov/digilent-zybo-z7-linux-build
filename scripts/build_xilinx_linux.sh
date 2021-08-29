@@ -29,7 +29,7 @@ build_xilinx_linux() {
   echo "=== Build kernel"
   make -j $(nproc --all) ARCH=${ARCH} CROSS_COMPILE=${CROSS_COMPILE} UIMAGE_LOADADDR=0x8000 uImage || return 1
 
-  # For kernel > 5.10 need to prepare kernel for building out-of-tree modules
+  # For kernel > 5.10 need to prepare kernel tree for building out-of-tree modules
   echo "=== Prepare kernel source tree for building out-of-tree modules"
   make ARCH=${ARCH} CROSS_COMPILE=${CROSS_COMPILE} modules_prepare || return 1
 
