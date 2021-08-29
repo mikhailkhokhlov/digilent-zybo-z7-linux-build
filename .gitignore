@@ -1,0 +1,43 @@
+#
+# Xilinx SDK stuff
+#
+
+.metadata/
+SDK.log
+
+#
+# RootFS downloaded from Xilinx website
+#
+
+arm_ramdisk.image.gz
+
+#
+# RAM disk
+#
+
+uramdisk.image.gz
+
+#
+# Cloned sources
+#
+
+device-tree-xlnx/
+dtc/
+dts/
+linux-xlnx/
+u-boot-xlnx/
+
+#
+# Created by Xilinx SDK
+#
+
+zybo_z7_10_fsbl/
+zybo_z7_10_fsbl_bsp/
+zybo_z7_10_hw0/
+
+#
+# Binaries output
+#
+
+local/
+zybo_z7_10_linux_boot/
