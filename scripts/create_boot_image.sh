@@ -44,7 +44,7 @@ EOF
   # all load addresses have to be replaced to config variables
 
   cat > uEnv.txt << EOF
-bootcmd=fatload mmc 0 0x3000000 uImage; fatload mmc 0 0x2000000 uramdisk.image.gz; fatload mmc 0 0x2A00000 devicetree.dtb; bootm 0x3000000 0x2000000 0x2A00000
+bootcmd=fatload mmc 0 0x3000000 ${KERNEL_BIN}; fatload mmc 0 0x2000000 ${RAMDISK_BIN}; fatload mmc 0 0x2A00000 ${DTB_BIN}; bootm 0x3000000 0x2000000 0x2A00000
 uenvcmd=boot
 EOF
 
